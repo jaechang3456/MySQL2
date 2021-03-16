@@ -42,5 +42,14 @@
 - avg : 컬럼값들의 평균을 구해주는 함수이다. select avg(컬럼명) from 테이블;
 - 위에 연산과 관련하여 최대값인 컬럼 하나의 데이터를 찾고 싶다면 select * from 테이블 where 컬럼명 =  (select max(컬럼명) from 테이블 ); 처럼 사용 가능하며, 이를 subquery라고 한다.
 
+### 6. MySQL 시관 관련 처리 방법
+- curdate : 현재의 날짜를 가져와 준다.
+- curtime : 현재의 시간을 가져와 준다.
+- now : 현재의 날짜와 시간을 가져와 준다.
+- MySQL에서 날짜를 얻어올땐, day(날짜), 요일을 얻어올땐 dayname(날짜), 요일명을 숫자로 얻어올땐 dayofweek(날짜)등 여러가지가 있다. 시간 관련 처리함수들의 레퍼런스는 아래 링크를 참고하자.
+- https://www.tutorialspoint.com/mysql/mysql-date-time-functions.htm
+
+
+
 
 
