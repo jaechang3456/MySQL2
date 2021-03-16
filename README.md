@@ -46,7 +46,7 @@
 - curdate : 현재의 날짜를 가져와 준다.
 - curtime : 현재의 시간을 가져와 준다.
 - now : 현재의 날짜와 시간을 가져와 준다.
-- MySQL에서 날짜를 얻어올땐, day(날짜), 요일을 얻어올땐 dayname(날짜), 요일명을 숫자로 얻어올땐 dayofweek(날짜)등 여러가지가 있다. 시간 관련 처리함수들의 레퍼런스는 아래 링크를 참고하자.
+- MySQL에서 날짜를 얻어올땐, day(날짜), 요일을 얻어올땐 dayname(날짜), 요일명을 숫자로 얻어올땐 dayofweek(날짜)등 여러가지가 있다. 시간 관련 처리 함수 및 레퍼런스는 아래 링크를 참고하자.
 - https://www.tutorialspoint.com/mysql/mysql-date-time-functions.htm
 
 
